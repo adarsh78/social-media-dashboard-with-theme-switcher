@@ -16,7 +16,7 @@ body {
     background-color: hsl(230, 17%, 14%);
 }
 
-.background-top {
+header{
     background-color: hsl(232, 19%, 15%);
     padding: 40px 30px 100px;
     border-radius: 0 0 20px 20px;
@@ -24,13 +24,13 @@ body {
     position: relative;
 }
 
-.background-top h1 {
+header h1 {
     font-size: 1.5rem;
     color:hsl(0, 0%, 100%);
     font-weight: 700;
 }
 
-.background-top p {
+header p {
     font-size: 0.9rem;
     color: hsl(228, 34%, 66%);
     font-weight: 700;
@@ -78,13 +78,14 @@ body {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
     left: 20px;
     top: 2.5px;
 }
 
-.main-container {
+
+main{
     position: absolute;
     top: 220px;
 }
@@ -113,7 +114,7 @@ body {
     font-weight: 700;
 }
 
-.card h3{
+.card h2{
     color: hsl(0, 0%, 100%);
     font-size: 4rem;
     font-weight: 700;
@@ -176,7 +177,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-h2 {
+h3 {
     color: hsl(0, 0%, 100%);
     text-align: right;
     margin: 20px 0 35px 0;
@@ -201,7 +202,7 @@ h2 {
     margin-top: 2rem;
 }
 
-.below h3 {
+.below h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
@@ -225,7 +226,7 @@ h2 {
 
 @media screen and (min-width: 1440px) {
 
-    .background-top .container{
+    header .container{
         max-width: 1150px;
         margin: 0 auto;
         display: flex;
@@ -239,11 +240,11 @@ h2 {
         margin-bottom: 50px;
     }
 
-    .background-top p {
+    header p {
         border-bottom: none;
     }
 
-    .background-top {
+    header {
         position: relative;
     }
 
@@ -266,11 +267,11 @@ h2 {
         flex-wrap: wrap;
     }
 
-    .main-container {
+    main {
         top: 150px;
     }
 
-    h2 {
+    h3 {
         text-align: justify;
         margin-left: 47px;
     }
@@ -287,14 +288,6 @@ h2 {
     .total-followers-card .card:nth-child(2) {
         margin-top: 0;
     }
-
-   
-
-    /* .total-followers-card {
-        position: absolute;
-        top: 134px;
-    } */
-
  
 
   }
